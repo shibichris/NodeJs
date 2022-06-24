@@ -1,0 +1,10 @@
+The Node.js file system module allows you to work with the file system on your computer.
+To include the File System module, use the require() method:
+
+The fs.readFile() method is used to read files on your computer.
+
+The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist,
+a new file, containing the specified content, will be created:
+
+To delete a file with the File System module,  use the fs.unlink() method.
+The fs.unlink() method deletes the specified file:
