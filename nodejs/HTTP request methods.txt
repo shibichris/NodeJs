@@ -1,0 +1,18 @@
+Routing is made from the word route. It is used to determine the 
+specific behavior of an application. It specifies how an application
+responds to a client request to a particular route, URI or path and
+a specific HTTP request method (GET, POST, etc.). 
+It can handle different types of HTTP requests.
+You can edit and update a particular account through a PUT request.
+
+In index.js, append .put() to your app variable and include the route 
+as the first argument. You will find the inputted account ID, 
+and set a conditional to update with new data
+You can delete users and data using the DELETE request method.
+
+Within index.js, append .delete() to your app variable, and include
+as the first argument. You will filter through the accounts array 
+and return the account to delete.
+To create new data in the accounts array, you can integrate a POST request method.
+
+In index.js, append .post() to your app variable, and include the route as the first argument
