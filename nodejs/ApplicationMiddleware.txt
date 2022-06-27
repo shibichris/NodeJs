@@ -1,0 +1,6 @@
+Application-level middleware
+
+METHOD() functions, where METHOD is the HTTP method of the request 
+that the middleware function handles (such as GET, PUT, or POST) in
+ lowercase. This example shows a middleware function with no mount 
+path. The function is executed every time the app receives a request.
