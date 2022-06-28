@@ -1,5 +1,11 @@
 Application-level middleware
 
+Application-level middleware is a type of middleware that generally 
+runs throughout the whole application. In the case of express.js, this 
+kind of middleware are bound to the application by using app.use(). 
+This means a middleware will be executed for all endpoints set 
+in the application, unless we specify a specific path.
+
 METHOD() functions, where METHOD is the HTTP method of the request 
 that the middleware function handles (such as GET, PUT, or POST) in
  lowercase. This example shows a middleware function with no mount 
