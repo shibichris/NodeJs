@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
   
 app.post('/', (req, res) => {
     res.send('POST request to the homepage')
-  })
+  });
