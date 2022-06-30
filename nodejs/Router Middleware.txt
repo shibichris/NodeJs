@@ -1,0 +1,16 @@
+Router Middleware
+
+Routing defines the way in which the client requests are 
+handled by the application endpoints. And when you make 
+some routers in separate file, you can use them by using middleware.
+
+Middleware functions are a really great way to run code on each 
+request, or on each request for a certain route, and to take action
+on request or response data. Middleware is a crucial piece of any
+modern web server, and is incredibly useful.
+
+Middleware functions are functions that have access to the request 
+object ( req ), the response object ( res ), and the next function 
+in the application's request-response cycle. The next function is a 
+function in the Express router which, when invoked, executes the 
+middleware succeeding the current middleware.
