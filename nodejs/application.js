@@ -22,7 +22,7 @@ app.get('/exit',function(req,res,next){
     res.send("Second Page");
     next();
 
-});
+})
 app.use(function(req,res){
     alert("The End")
     console.log("The End");
