@@ -25,7 +25,7 @@ router.get('/',async(req,res)=>{
 
 router.get('/:id',async(req,res)=>{
     const getById = await Persons.findById(req.params.id);
-    res.status(200).json(getById);
+    res.status(200).json(getById)
 })
 
 //Update 
