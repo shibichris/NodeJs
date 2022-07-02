@@ -45,7 +45,7 @@ app.get('/',(req,res)=>{
 app.get('/:id',(req,res)=>{
     const getOne=myPersons.filter(e=>e.id===req.params.id)
     res.status(200).json(getOne);
-});
+})
 
 //Local host
 
